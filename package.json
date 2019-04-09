@@ -1,0 +1,21 @@
+{
+  "name": "tcp",
+  "version": "1.0.0",
+  "description": "TCP Chat Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
+  },
+  "keywords": [],
+  "author": "Alexander White",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.7.1",
+    "jsdoc": "^3.5.5"
+  }
+}
