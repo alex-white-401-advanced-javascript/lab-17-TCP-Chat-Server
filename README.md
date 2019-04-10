@@ -7,48 +7,38 @@
 
 ### Links and Resources
 * [PR]()
-* [travis](http://xyz.com)
+* [travis]()
 <!-- * [back-end](http://xyz.com) (when applicable)
 * [front-end](http://xyz.com) (when applicable) -->
 
 #### Documentation
 <!-- * [swagger](http://xyz.com) (API assignments only) -->
-* [jsdoc](http://xyz.com) (All assignments)
-
+* [jsdoc](./docs/index.html)
 ### Modules
 #### `server.js`
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-* Usage Notes or examples
+###### `server.on('connection', (socket) => server connection`
 
-###### `bar(array) -> array`
-* Usage Notes or examples
+###### `let dispatchEvent = (buffer) => TCP`
 
 #### `app.js`
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-* Usage Notes or examples
+###### `loadFile = (file) => readFile(file) -> reads file`
+###### `saveFile = (file, buffer) => writeFile(file, buffer) -> writes to file`
+###### `onvertBuffer = buffer => Buffer.from( buffer.toString().trim().toUpperCase()) -> changes file`
+###### `const alterFile = (file) -> edits file`
 
-#### `logger.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-* Usage Notes or examples
-
-#### `event-pool.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-* Usage Notes or examples
 
 ### Setup
 * Clone down the repo
 * `npm i`
+* Have three seperate terminal windows open
+* nodemon `app.js` and `logger.js`
 
 #### Running the app
-* 
+* `node app.js text.txt`
   
 #### Tests
 ##### How do you run tests? 
