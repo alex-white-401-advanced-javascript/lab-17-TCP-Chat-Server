@@ -6,8 +6,8 @@
 ### Author: Alexander White
 
 ### Links and Resources
-* [PR]()
-* [travis]()
+* [PR](https://github.com/alex-white-401-advanced-javascript/lab-17-TCP-Chat-Server/pull/1)
+* [![Build Status](https://travis-ci.com/alex-white-401-advanced-javascript/lab-17-TCP-Chat-Server.svg?branch=master)](https://travis-ci.com/alex-white-401-advanced-javascript/lab-17-TCP-Chat-Server)
 <!-- * [back-end](http://xyz.com) (when applicable)
 * [front-end](http://xyz.com) (when applicable) -->
 
